@@ -1,4 +1,61 @@
-img {
-    max-width: 25%;
-    height: auto;
+@font-face {
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/fugazone/v10/rax_HiWKp9EAITukFsl8Axhf.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header, h1{
+    color: #3bba9c;
+    font-family: "Fugaz One";
+    background-color: #2e3047;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #707793;
+}
+
+.main_body {
+    background-color: #3c3f58;
+}
+
+.content-section {
+    margin: 1em;
+    color: #3bba9c;
+    font-family: "Cinzel";
+    font-size: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.happyhands {
+    border-radius: 50%;
+}
+
+.happyhands, .goose {
+    height: 250px;
+    width: 250px;
+    max-width: 1000px;
+    margin: 10px;
+    border: 2px solid #707793;
+}
+
+
+
+
